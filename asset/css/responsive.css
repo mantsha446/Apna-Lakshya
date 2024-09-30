@@ -1,0 +1,382 @@
+
+    
+    * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+     .header1 {
+        display: flex;
+        flex-direction: column;
+        height: 27vh;
+        gap: 0px;
+       
+    } 
+     .navbar-toggler{
+         margin-right: 20px;
+     }
+      .nav-item a{
+        font-size: 12px;
+     }
+     .navbar-expand-lg .navbar-nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+     }
+     .header1 a{
+        font-size: 11px;
+    }
+    .header1 .phone-img img{
+        margin-left: 2px;
+    
+    }
+    .header1 img{
+        width: 4vw;
+        margin-left: -9px;
+    }
+   
+    a{
+        font-size: 12px;
+    }
+    a img{
+        height: 15px;
+    }
+    p{
+        font-size: 16px;
+        width: 62vw;
+        padding-bottom: 22px;
+        line-height: 11px;
+    }
+    .logo img{
+        width: 12vw;
+        height: 10vh;
+    }
+    .logo{
+         margin-left: 10px;
+    }
+    span{
+        
+        font-size: 13px;
+        padding: 5px;
+    }
+    /**hero-section starts from here**/
+
+    .hero-section-cont{
+        padding: 10px;
+    }
+    .hero-section h2{
+        font-size: 15px;
+        width: 71vw;
+        padding-top: 20px;
+    }
+    .hero-section{
+       height: fit-content;
+       width: 100%;
+      
+    }
+    .hero-section .yellow-line{
+        margin-left: 158px;
+        padding-bottom: 1px;
+        height: 5px;
+        width: 50px;
+    }
+    h6{
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .box{
+      width:65vw;
+      height: 50vh;
+       padding: 8px 6px 14px 7px;
+
+      /** courses-sec starts from here**/  
+    }
+    .courses-sec h1 img{
+        width: 44vw;
+        height: 4vh;
+    }
+    .box img{
+       width: 223px;
+        height: 185px;
+    }
+    .course-boxes{
+        height: 385px;
+    }
+    
+    .courses-sec-boxes{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        margin-inline: 20px;
+    }
+    .courses-sec{
+        height: fit-content;
+       
+    }
+    .courses-sec-content{
+        padding: 10px;
+        margin-inline: 34px;
+        
+    }
+    .box h5{
+        margin-bottom: 1px;
+    }
+    h5{
+        font-size: 14px;
+        padding-bottom: 5px;
+        width: 52vw;
+    }
+    h6{
+        font-size: 16px;
+    }
+    .box span{
+       width: 15vw;
+        display: block;
+        padding: 0px;
+        font-size: 12px;
+    }
+    .box button{
+        font-size: 14px;
+        margin-bottom: 4px;
+        
+    }
+    .courses-sec-content .yellow-line-img{
+        padding-left: 1px;
+    }
+    
+  /** about-sec starts from here**/
+    .about-sec{
+       width: fit-content;
+       height: 190vh;
+        
+    }
+    .about-sec img{
+       height: 55vh;
+        width: 94vw;
+    }
+    .about-sec-content .yellow-line-img {
+        width: 92px;
+        height: 29px;
+        margin-left: 30px;
+    }
+    .about-sec h1 img{
+        width: 152px;
+        height: 29px;
+    }
+    .about-sec-content{
+        margin-inline: 13px;
+        padding-top: 30px;
+    }
+    .aside{
+    width: 399px;
+        height: 374px;
+        font-size: 13px;
+        margin-top: -50px;
+        margin-left: 54px;
+    } 
+    
+    .about-sec-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about-sec h1 img{
+        height: 30px;
+        width: 133px;
+    }
+  /** teachers-sec starts from here**/
+
+    .teachers-sec{
+        height: fit-content;
+        padding-bottom: 30px;
+        
+    }
+    .teachers-sec-content{
+        margin-inline: 10px;
+        padding-top: 15px;
+    }
+    .teachers-sec h1 img{
+        width: 250px;
+    }
+    .teachers-sec-content .yellow-line-img{
+        padding-left: 48px;
+    }
+    .teachers-sec-boxes{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-inline: 65px;
+    }
+    .teachers-sec .box1{
+        width: 240px;
+        height: 284px;
+
+    }
+    .box1 img{
+        width: 217px;
+        height: 200px;
+    }
+    .teachers-sec h3{
+        padding-top: 4px;
+        padding-bottom: 1px;
+        font-size: 14px;
+    }
+
+   /**feedback-sec starts from here**/
+    
+   .feedback-sec{
+        height: fit-content;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .feedback-sec h1 img{
+        width: 240px;
+        height: 25px;
+    }
+    .feedback-sec-content{
+        margin-inline: 39px;
+        padding-top: 15px;
+    }
+    .feedback-sec-boxes{
+             display: flex;
+             flex-direction: column;
+             gap: 15px;
+    }
+    .feedback-sec .box2{
+        height: fit-content;
+        width: fit-content;
+        padding: 8px;
+    }
+    .sec4-para{
+        margin-top: 10px;
+        font-size: 14px;
+        width: 69vw;
+    }
+    .box-content h3{
+        font-size: 20px;
+    }
+     .feedback-sec-con .vector-img{
+        width: 25px;
+       
+     }
+    .feedback-sec-content .yellow-line-img{
+        padding-left: 40px ;
+        padding-bottom: 5px;
+    }
+    .element.style{
+        height: 280px;
+        width: 300px;
+    }
+    .vector-img img{
+        width: 30px;
+    }
+
+   /** contact-sec starts from here**/
+    .contact-sec{
+        height: 190vh;
+    }
+    .contact-sec-heading{
+        margin-inline: 20px;
+        padding-top: 15px;
+    }
+    .contact-sec h1 img{
+        width: 157px;
+        height: 25px;
+    }
+    .contact-sec-heading .yellow-line-img{
+        width: 150px;
+        margin-left: 2px;
+    }
+
+     .img-table-container{
+        display: flex;
+        flex-direction: column;
+        
+     }
+     .img-border-container{
+        margin-left: 71px;
+        padding-bottom: 118px;
+     }
+     .img-border{
+        width: 68vw;
+        height: 42vh;
+     }
+     .contact-sec .border-image img{
+       width: 72vw;
+        height: 42vh;
+        position: relative;
+        right: 30px;
+        top: 14px;
+     }
+     .contact-sec h6{
+        margin-bottom: -3px;
+     }
+     .contact-sec .check{
+       width: 21vw;
+        height: 7vh;
+        position: relative;
+        left: 219px;
+        bottom: 13px;
+     }
+     .contact-sec .dot{
+        width: 7vw;
+        height: 6vh;
+        position: relative;
+        left: 176px;
+        top: 129px;
+     }
+     .contact-sec .star{
+    width: 7vw;
+    height: 7vh;
+    position: relative;
+    right: 339px;
+    top: 22px;
+     }
+     .form-content{
+        margin-inline: 40px;
+     }
+     .form-input{
+        width: 120px;
+        width: 117px;
+     }
+     .form-input input{
+        font-size: 16px;
+     }
+     .form-input select{
+        font-size: 16px;
+     }
+     .text-message {
+        width: 530px;
+        font-size: 18px; 
+     }
+  
+     select{
+        font-size: 15px;
+        width: 122px;
+     }
+     .contact-sec .submit-button{
+        padding: 5px;
+        width: 23vw;
+        margin-top: 22px;
+     }
+
+     /**footer starts from here**/
+     
+     footer h3{
+        font-size: 15px;
+     }
+     footer{
+       height: fit-content;
+     }
+     footer img{
+        padding-top: 2px;
+        width: 28vh;
+        padding-bottom: 8px;
+     }
+     nav{
+        height: 6vh;
+     }
+     .footer-nav img{
+             width: 38vw;
+     }
