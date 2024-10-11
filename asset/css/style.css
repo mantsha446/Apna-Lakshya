@@ -201,8 +201,8 @@ nav {
     
 
 /** hero-section starts here **/
-.hero-section
-        background-image: url("../images/pngtree-multiethnic-startup-business-team-in-night-office-students-coffee-training-photo-image_42349274.jpg");
+.hero-section{
+    background-image: url("../images/pngtree-multiethnic-startup-business-team-in-night-office-students-coffee-training-photo-image_42349274.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 110vh;
